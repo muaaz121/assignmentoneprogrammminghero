@@ -1,5 +1,3 @@
-
-
 * {
   margin: 0;
   padding: 0;
@@ -80,6 +78,7 @@ header {
 
 
 .preview-section {
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -126,5 +125,92 @@ header {
   max-width: 420px;
   width: 100%;
   border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.stats-section {
+  background-color: #e8eaff;
+  padding: 60px 10%;
+  text-align: center;
+  border-radius: 20px;
+  margin: 40px 10%;
+}
+
+.stats-section h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1e1e1e;
+  margin-bottom: 40px;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.stat-item h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #4a46f6;
+  margin-bottom: 5px;
+}
+
+.stat-item p {
+  font-size: 14px;
+  color: #6a6f8a;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f6f8ff;
+}
+
+.action-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 8%;
+  background-color: #f6f8ff;
+  flex-wrap: wrap;
+}
+
+.action-content {
+  max-width: 500px;
+}
+
+.action-content h2 {
+  font-size: 2rem;
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+}
+
+.action-content p {
+  font-size: 1rem;
+  color: #6b7280;
+  margin-bottom: 1.5rem;
+}
+
+.action-content button {
+  padding: 0.75rem 1.5rem;
+  background-color: #5c4bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.action-content button:hover {
+  background-color: #473bd0;
+}
+
+.action-image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 1rem;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
